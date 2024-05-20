@@ -1,0 +1,493 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+  }
+  
+  .Container1{
+    background-image: url(img/sens.avif);
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;    
+    object-fit: cover;    
+  }
+  
+  .Container1>.Navbar {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+    align-items: center;    
+    box-sizing: border-box;
+  }
+  
+  .Container1>.Navbar>.LOGO {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;    
+  }
+  
+  .Container1>.Navbar>ul {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Container1>.Navbar>ul>.Home {
+    color: rgb(255, 0, 55);
+  }
+  
+  .Container1>.Navbar>ul>li {
+    margin-right: 4rem;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    list-style: none;    
+  }
+  
+  .Container1>.Navbar>ul>i {
+    display: none;
+  }
+  
+  .Container1>.Navbar>ul>li:hover {
+    color: rgb(255, 0, 55);
+  }
+  
+  .Container1>.Navbar>ul>button {
+    width: 9vw;
+    height: 2.5rem;
+    background-color: rgb(255, 0, 85);
+    color: white;
+    border-radius: 1.5em;    
+    cursor: pointer;
+    outline: none;
+    border: none;    
+    font-weight: bold;   
+  } 
+  .Container1>.Navbar>ul>button:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    font-size: 15px;
+    transition: 0.5s ease-in-out;
+  }
+  
+  .Container1>.Text {
+    width: 70%;
+    height: 65vh;
+    margin: 0 auto;
+    padding-top: 130px;
+    text-align: center;    
+    box-sizing: border-box;
+    color: white;
+  }
+  
+  .Container1>.Text>p {
+    font-size: 25px;
+  }
+  
+  .Container1>.Text>hr {
+    width: 13%;
+    height: 3px;
+    margin: 0 auto;
+    margin-top: 13px;
+    background-color: rgb(255, 0, 64);
+    border: none;
+    border-radius: 1em;    
+  }
+  
+  .Container1>.Text>h1 {
+    margin-top: 20px;
+    font-size: 60px;    
+  }
+  
+  .Container1>.Text>.button1 {
+    height: 8vh;
+    width: 13vw;  
+    margin-top: 15px;  
+    background-color: rgb(255, 0, 43);
+    color: white;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border-radius: 2em;
+    cursor: pointer;   
+  }
+  
+                                          /* X-X-X-X-X-X-X-X-X-X-X-X */
+  
+  .Boxes {
+    width: 100%;
+    height: 127vh;
+    padding-top: 80px;
+    text-align: center;    
+    box-sizing: border-box;
+  }
+  
+  .Boxes>marquee>h1 {
+    font-size: 46px;
+    color: black;
+  }
+  
+  .Boxes>hr {
+    width: 13%;
+    height: 3px;
+    margin: 0 auto;
+    margin-top: 3px;
+    background-color: rgb(255, 0, 34);
+    border: none;
+    border-radius: 1em;    
+  }
+  
+  .Boxes>.Box {
+    width: 80%;
+    height: 80vh;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;        
+  }
+  
+  .Boxes>.Box>.mountain {
+    width: 45%;
+    height: 80vh;
+    box-sizing: border-box;
+  }
+  
+  .Boxes>.Box >.mountain >.image>img {
+    width: 100%;
+    height: 45vh;
+  }
+  
+  .Boxes>.Box>.mountain>h3 {
+    margin-top: 25px;
+    color: black;    
+  }
+  
+  .Boxes>.Box>.mountain>p {
+    margin-top: 18px;
+  }
+  
+  .Boxes>.Box>.mountain>button {
+    width: 10vw;
+    height: 6.3vh;
+    border-radius: 1.5em;
+    margin-top: 20px;
+    background-color: rgb(255, 0, 43);
+    color: white;
+    outline: none;
+    border: none;    
+    cursor: pointer;    
+  }
+
+                                          /* X-X-X-X-X-X-X-X-X-X-X-X */
+                                          /* X-X-X-X-X-X-X-X-X-X-X-X */
+  
+  @media (max-width: 420px ) {
+    .Container1 {
+      height: 70vh;
+    }
+    .Container1>.Navbar {
+      padding: 0 30px;
+      height: 70px;
+    }
+  
+    .Container1>.Navbar>.LOGO {
+      font-size: 17px;
+    }
+  
+    .Container1>.Navbar>ul>li {
+      display: none;
+    }
+  
+    .Container1>.nav>ul>i {
+      font-weight: 600;
+      display: block;
+      font-size: 30px;
+      color: black;      
+    }
+  
+    .Container1>.Navbar>ul>button {
+      display: none;
+    }
+  
+    .Container1>.Text {
+      padding-top: 120px;
+    }
+  
+    .Container1>.Text>h1 {
+      font-size: 35px;
+      line-height: 47px;
+      margin-top: 35px;
+    }
+  
+    .Container1>.Text>hr {
+      width: 70px;
+    }
+  
+    .Container1>.Text>p {
+      font-size: 20px;
+    }
+  
+    .Container1>.Text>.button1 {
+      width: 60%;
+      height: 6vh;
+      margin-top: 25px;
+    }
+  
+                                            /* X-X-X-X-X-X-X-X-X-X-X-X */
+  
+    .Boxes {
+      padding-top: 55px;
+      height: 147vh;
+    }
+  
+    .Boxes>h1 {
+      font-size: 30px;
+    }
+  
+    .Boxes>hr {
+      width: 50%;
+      margin-top: 15px;
+    }
+  
+    .Boxes>.Box {
+      flex-wrap: wrap;
+      height: 120vh;
+      margin-top: 35px;
+    }
+  
+    .Boxes>.Box>.mountain {
+      width: 100%;
+      height: 55vh;
+      border-radius: 15px;
+    }
+  
+    .Boxes>.Box>.mountain>h3 {
+      margin-top: 23px;
+    }
+  
+    .Boxes>.Box>.mountain>.image>img {
+      height: 40%;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+    }
+  
+    .Boxes>.Box>.mountain>p {
+      font-size: 12px;
+    }
+  
+    .Boxes>.Box>.mountain>button {
+      width: 50%;
+      height: 5.5vh;
+    }
+  }
+
+                                          /* X-X-X-X-X-X-X-X-X-X-X-X */
+                                          /* X-X-X-X-X-X-X-X-X-X-X-X */         
+                                          
+   @media (max-width: 420px ) {
+    .Container1 {
+      height: 70vh;
+    }
+    .Container1>.Navbar {
+      padding: 0 30px;
+      height: 70px;
+    }
+  
+    .Container1>.Navbar>.LOGO {
+      font-size: 17px;
+    }
+  
+    .Container1>.Navbar>ul>li {
+      display: none;
+    }
+  
+    .Container1>.nav>ul>i {
+      font-weight: 600;
+      display: block;
+      font-size: 30px;
+      color: black;      
+    }
+  
+    .Container1>.Navbar>ul>button {
+      display: none;
+    }
+  
+    .Container1>.Text {
+      padding-top: 120px;
+    }
+  
+    .Container1>.Text>h1 {
+      font-size: 35px;
+      line-height: 47px;
+      margin-top: 35px;
+    }
+  
+    .Container1>.Text>hr {
+      width: 70px;
+    }
+  
+    .Container1>.Text>p {
+      font-size: 20px;
+    }
+  
+    .Container1>.Text>.button1 {
+      width: 60%;
+      height: 6vh;
+      margin-top: 25px;
+    }
+  
+                                            /* X-X-X-X-X-X-X-X-X-X-X-X */
+  
+    .Boxes {
+      padding-top: 55px;
+      height: 147vh;
+    }
+  
+    .Boxes>h1 {
+      font-size: 30px;
+    }
+  
+    .Boxes>hr {
+      width: 50%;
+      margin-top: 15px;
+    }
+  
+    .Boxes>.Box {
+      flex-wrap: wrap;
+      height: 120vh;
+      margin-top: 35px;
+    }
+  
+    .Boxes>.Box>.mountain {
+      width: 100%;
+      height: 55vh;
+      border-radius: 15px;
+    }
+  
+    .Boxes>.Box>.mountain>h3 {
+      margin-top: 23px;
+    }
+  
+    .Boxes>.Box>.mountain>.image>img {
+      height: 40%;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+    }
+  
+    .Boxes>.Box>.mountain>p {
+      font-size: 12px;
+    }
+  
+    .Boxes>.Box>.mountain>button {
+      width: 50%;
+      height: 5.5vh;
+    }
+  }    
+  
+                                          /* X-X-X-X-X-X-X-X-X-X-X-X */
+                                          /* X-X-X-X-X-X-X-X-X-X-X-X */                                        
+
+  @media (max-width: 450px ) {
+    .Container1 {
+      height: 70vh;
+    }
+    .Container1>.Navbar {
+      padding: 0 30px;
+      height: 70px;
+    }
+  
+    .Container1>.Navbar>.LOGO {
+      font-size: 17px;
+    }
+  
+    .Container1>.Navbar>ul>li {
+      display: none;
+    }
+  
+    .Container1>.nav>ul>i {
+      font-weight: 600;
+      display: block;
+      font-size: 30px;
+      color: black;      
+    }
+  
+    .Container1>.Navbar>ul>button {
+      display: none;
+    }
+  
+    .Container1>.Text {
+      padding-top: 120px;
+    }
+  
+    .Container1>.Text>h1 {
+      font-size: 35px;
+      line-height: 47px;
+      margin-top: 35px;
+    }
+  
+    .Container1>.Text>hr {
+      width: 70px;
+    }
+  
+    .Container1>.Text>p {
+      font-size: 20px;
+    }
+  
+    .Container1>.Text>.button1 {
+      width: 60%;
+      height: 6vh;
+      margin-top: 25px;
+    }
+  
+                                            /* X-X-X-X-X-X-X-X-X-X-X-X */
+  
+    .Boxes {
+      padding-top: 55px;
+      height: 147vh;
+    }
+  
+    .Boxes>h1 {
+      font-size: 30px;
+    }
+  
+    .Boxes>hr {
+      width: 50%;
+      margin-top: 15px;
+    }
+  
+    .Boxes>.Box {
+      flex-wrap: wrap;
+      height: 120vh;
+      margin-top: 35px;
+    }
+  
+    .Boxes>.Box>.mountain {
+      width: 100%;
+      height: 55vh;
+      border-radius: 15px;
+    }
+  
+    .Boxes>.Box>.mountain>h3 {
+      margin-top: 23px;
+    }
+  
+    .Boxes>.Box>.mountain>.image>img {
+      height: 40%;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+    }
+  
+    .Boxes>.Box>.mountain>p {
+      font-size: 12px;
+    }
+  
+    .Boxes>.Box>.mountain>button {
+      width: 50%;
+      height: 5.5vh;
+    }
+  } 
